@@ -1,11 +1,12 @@
 import "./SideNav.css";
 import CloseIcon from "@mui/icons-material/Close";
 
-type OpenSideNav = {
+type SideNavProps = {
   openSideNav: boolean;
+  setOpenSideNav: Function;
 };
 
-function SideNav({ openSideNav, setOpenSideNav }) {
+function SideNav({ openSideNav, setOpenSideNav }: SideNavProps) {
   return (
     <div className="side_nav" style={{ width: `${openSideNav ? "40%" : "0"}` }}>
       <ul>
