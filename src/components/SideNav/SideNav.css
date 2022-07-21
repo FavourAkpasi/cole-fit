@@ -7,7 +7,7 @@
   background-color: white;
   overflow-x: hidden;
   transition: 0.3s;
-  padding: 3rem 0;
+  padding: 4rem 0.2rem;
   font-size: clamp(14px, 3vw, 16px);
   font-weight: 500;
 }
