@@ -1,8 +1,22 @@
+.banner {
+  position: relative;
+}
 .banner > img {
   width: 100%;
   height: 100vh;
   object-fit: cover;
 }
-.desc {
+.banner > .desc {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  top: 5rem;
+  right: 2rem;
+  position: absolute;
+}
+.banner > .desc > span {
   font-family: "Megrim", cursive;
+  font-size: clamp(2rem, 6vw, 5rem);
+  font-weight: bold;
+  color: #fff;
 }

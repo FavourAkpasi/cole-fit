@@ -21,6 +21,7 @@ const NavBar = () => {
             <li>SHOP</li>
             <li>CONTACT</li>
             <li>ABOUT</li>
+            <li>BROWSE COLLECTIONS</li>
           </ul>
         </nav>
       )}

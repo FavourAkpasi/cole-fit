@@ -17,7 +17,7 @@ function SideNav({ openSideNav, setOpenSideNav }: SideNavProps) {
           <a href="#projects">GALLERY</a>
         </li>
         <li onClick={() => setOpenSideNav(!openSideNav)}>
-          <a href="#contact">CATEGORIES</a>
+          <a href="#contact">COLLECTIONS</a>
         </li>
         <li onClick={() => setOpenSideNav(!openSideNav)}>
           <a href="#contact">ACCOUNT</a>
