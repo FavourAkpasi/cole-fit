@@ -34,7 +34,7 @@ const Footer = () => {
             <a href="http://twitter.com/longevity_cole" target="_blank">
               <Twitter />
             </a>
-            <a href="http://wa.me/08133214524" target="_blank">
+            <a href="http://wa.link/a6x33m" target="_blank">
               <WhatsApp />
             </a>
           </div>
