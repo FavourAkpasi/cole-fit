@@ -11,25 +11,25 @@ function SideNav({ openSideNav, setOpenSideNav }: SideNavProps) {
     <div className="side_nav" style={{ width: `${openSideNav ? "60%" : "0"}` }}>
       <ul>
         <li onClick={() => setOpenSideNav(!openSideNav)}>
-          <a href="#about">STORE</a>
+          <a href="/soon">STORE</a>
         </li>
         <li onClick={() => setOpenSideNav(!openSideNav)}>
-          <a href="#projects">GALLERY</a>
+          <a href="/">GALLERY</a>
         </li>
         <li onClick={() => setOpenSideNav(!openSideNav)}>
           <a href="/collections">COLLECTIONS</a>
         </li>
         <li onClick={() => setOpenSideNav(!openSideNav)}>
-          <a href="#contact">ACCOUNT</a>
+          <a href="/soon">ACCOUNT</a>
         </li>
         <li onClick={() => setOpenSideNav(!openSideNav)}>
-          <a href="#contact">ABOUT US</a>
+          <a href="/soon">ABOUT US</a>
         </li>
         <li onClick={() => setOpenSideNav(!openSideNav)}>
-          <a href="#contact">CONTACT US</a>
+          <a href="/soon">CONTACT US</a>
         </li>
         <li onClick={() => setOpenSideNav(!openSideNav)}>
-          <a href="#contact">BOOK A SESSION</a>
+          <a href="/soon">BOOK A SESSION</a>
         </li>
       </ul>
       <button id="close_btn" onClick={() => setOpenSideNav(!openSideNav)}>

@@ -37,7 +37,7 @@ footer svg {
   }
   .footer-left,
   .footer-right {
-    padding: 0.3rem;
+    padding: 0.5rem;
   }
   .footer-right-items div {
     margin-bottom: 0.2rem;
@@ -47,6 +47,8 @@ footer svg {
   .footer-right .socials {
     display: flex;
     justify-content: center;
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
   }
   .footer-right-title {
     text-align: center;

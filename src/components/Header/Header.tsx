@@ -27,13 +27,16 @@ const Header = () => {
       ) : (
         <header>
           <div className="header-left">
-            <div className="item"> STORE </div>
+            <div className="item" onClick={() => navigate("/soon")}>
+              {" "}
+              STORE{" "}
+            </div>
             <div className="item">GALLERY</div>
           </div>
           <div className="logo" onClick={() => navigate("/")}>
             COLƎFIT
           </div>
-          <div className="header-right">
+          <div className="header-right" onClick={() => navigate("/soon")}>
             {viewportWidth < 767 ? (
               <SearchIcon />
             ) : (
@@ -47,8 +50,8 @@ const Header = () => {
               </div>
             )}
 
-            <PersonIcon />
-            <ShoppingCartIcon />
+            <PersonIcon onClick={() => navigate("/soon")} />
+            <ShoppingCartIcon onClick={() => navigate("/soon")} />
           </div>
         </header>
       )}

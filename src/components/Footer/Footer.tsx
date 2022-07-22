@@ -25,16 +25,24 @@ const Footer = () => {
       <div className="footer-right">
         <div className="footer-right-items">
           <div className="socials">
-            <Facebook />
-            <Instagram />
-            <Twitter />
-            <WhatsApp />
+            <a href="http://facebook.com/longevity_cole" target="_blank">
+              <Facebook />
+            </a>
+            <a href="http://instagram.com/colefit_designs" target="_blank">
+              <Instagram />
+            </a>
+            <a href="http://twitter.com/longevity_cole" target="_blank">
+              <Twitter />
+            </a>
+            <a href="https://wa.me/08133214524" target="_blank">
+              <WhatsApp />
+            </a>
           </div>
           <div>
             <Phone /> +234 813 321 4524
           </div>
           <div>
-            <MailOutline /> contact@colefit.com
+            <MailOutline /> colefitd@gmail.com
           </div>
           <div>
             <Room /> Shop 5, Showcase Complex, Building 1, 3rd Cementery road,

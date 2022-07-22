@@ -39,7 +39,7 @@ const MobileHeader = () => {
       >
         COLƎFIT
       </div>
-      <div className="header-right">
+      <div className="header-right" onClick={() => navigate("/soon")}>
         <ShoppingCartIcon />
       </div>
     </header>
