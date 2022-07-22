@@ -15,7 +15,7 @@
   right: 2rem;
   position: absolute;
 }
-.banner > .desc > span {
+.banner > .desc > .m-text {
   font-family: "Megrim", cursive;
   font-size: clamp(2rem, 7vw, 6rem);
   font-weight: bold;

@@ -10,7 +10,7 @@ const Main = () => {
       <section className="banner">
         <img src="/images/cole2.jpg" alt="main" />
         <div className="desc">
-          <span> BE YOUR OWN KIND OF BEAUTIFUL</span>
+          <span className="m-text"> BE YOUR OWN KIND OF BEAUTIFUL</span>
           <div>
             <Button
               sx={{
@@ -20,7 +20,6 @@ const Main = () => {
                 marginTop: "2rem",
               }}
               color="inherit"
-              // size="large"
               variant="contained"
               onClick={() => {
                 navigate("/collections");

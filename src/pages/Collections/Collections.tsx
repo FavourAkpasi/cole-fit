@@ -24,13 +24,13 @@ const categoryData = [
   },
   {
     id: 4,
-    name: "Artistic Fasion",
+    name: "Artistic Fashion",
     image: "/images/cole3.JPG",
   },
   {
     id: 5,
     name: "Safari Wears",
-    image: "/images/fave2.jpeg",
+    image: "/images/fave2.jpg",
   },
   {
     id: 6,
