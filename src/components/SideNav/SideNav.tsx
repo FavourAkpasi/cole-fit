@@ -8,7 +8,7 @@ type SideNavProps = {
 
 function SideNav({ openSideNav, setOpenSideNav }: SideNavProps) {
   return (
-    <div className="side_nav" style={{ width: `${openSideNav ? "40%" : "0"}` }}>
+    <div className="side_nav" style={{ width: `${openSideNav ? "60%" : "0"}` }}>
       <ul>
         <li onClick={() => setOpenSideNav(!openSideNav)}>
           <a href="#about">STORE</a>
@@ -17,7 +17,7 @@ function SideNav({ openSideNav, setOpenSideNav }: SideNavProps) {
           <a href="#projects">GALLERY</a>
         </li>
         <li onClick={() => setOpenSideNav(!openSideNav)}>
-          <a href="#contact">COLLECTIONS</a>
+          <a href="/collections">COLLECTIONS</a>
         </li>
         <li onClick={() => setOpenSideNav(!openSideNav)}>
           <a href="#contact">ACCOUNT</a>

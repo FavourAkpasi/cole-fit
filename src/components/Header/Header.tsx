@@ -5,8 +5,10 @@ import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import { Input } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 import MobileHeader from "./MobileHeader";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
+  const navigate = useNavigate();
   const [viewportWidth, setviewPortWidth] = useState(window.innerWidth);
 
   useEffect(() => {
@@ -28,7 +30,9 @@ const Header = () => {
             <div className="item"> STORE </div>
             <div className="item">GALLERY</div>
           </div>
-          <div className="logo">COLƎFIT</div>
+          <div className="logo" onClick={() => navigate("/")}>
+            COLƎFIT
+          </div>
           <div className="header-right">
             {viewportWidth < 767 ? (
               <SearchIcon />

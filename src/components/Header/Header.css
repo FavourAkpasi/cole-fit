@@ -1,4 +1,7 @@
 header {
+  position: fixed;
+  top: 0;
+  width: 100%;
   z-index: 9;
   display: flex;
   justify-content: space-between;
@@ -20,6 +23,12 @@ header {
   justify-content: flex-end;
   align-items: center;
   flex: 1;
+}
+.hide {
+  top: -70px;
+}
+.show {
+  top: 0;
 }
 .logo {
   display: flex;
