@@ -25,6 +25,9 @@ const Footer = () => {
       <div className="footer-right">
         <div className="footer-right-items">
           <div className="socials">
+            <a href="tel:+234 813 321 4524">
+              <Phone />
+            </a>
             <a href="http://facebook.com/longevity_cole" target="_blank">
               <Facebook />
             </a>
@@ -37,12 +40,9 @@ const Footer = () => {
             <a href="http://wa.link/a6x33m" target="_blank">
               <WhatsApp />
             </a>
-          </div>
-          <div>
-            <Phone /> +234 813 321 4524
-          </div>
-          <div>
-            <MailOutline /> colefitd@gmail.com
+            <a href="mailto:colefitd@gmail.com" target="_blank">
+              <MailOutline />
+            </a>
           </div>
           <div>
             <Room /> Shop 5, Showcase Complex, Building 1, 3rd Cementery road,
